@@ -1,0 +1,9 @@
+D:\Students Testing App\Gateway_API\Gateway_Services\bin\Debug\netcoreapp3.1\Gateway_Services.deps.json
+D:\Students Testing App\Gateway_API\Gateway_Services\bin\Debug\netcoreapp3.1\Gateway_Services.dll
+D:\Students Testing App\Gateway_API\Gateway_Services\bin\Debug\netcoreapp3.1\Gateway_Services.pdb
+D:\Students Testing App\Gateway_API\Gateway_Services\obj\Debug\netcoreapp3.1\Gateway_Services.csprojAssemblyReference.cache
+D:\Students Testing App\Gateway_API\Gateway_Services\obj\Debug\netcoreapp3.1\Gateway_Services.AssemblyInfoInputs.cache
+D:\Students Testing App\Gateway_API\Gateway_Services\obj\Debug\netcoreapp3.1\Gateway_Services.AssemblyInfo.cs
+D:\Students Testing App\Gateway_API\Gateway_Services\obj\Debug\netcoreapp3.1\Gateway_Services.csproj.CoreCompileInputs.cache
+D:\Students Testing App\Gateway_API\Gateway_Services\obj\Debug\netcoreapp3.1\Gateway_Services.dll
+D:\Students Testing App\Gateway_API\Gateway_Services\obj\Debug\netcoreapp3.1\Gateway_Services.pdb
