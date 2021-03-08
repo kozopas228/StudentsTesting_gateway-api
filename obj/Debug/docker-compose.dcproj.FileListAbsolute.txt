@@ -1,0 +1,17 @@
+D:\Students Testing App\Gateway_API\bin\Debug\appsettings.Development.json
+D:\Students Testing App\Gateway_API\bin\Debug\appsettings.json
+D:\Students Testing App\Gateway_API\bin\Debug\Gateway_API.exe
+D:\Students Testing App\Gateway_API\bin\Debug\Gateway_API.dll
+D:\Students Testing App\Gateway_API\bin\Debug\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Students Testing App\Gateway_API\bin\Debug\Gateway_Services.dll
+D:\Students Testing App\Gateway_API\bin\Debug\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Students Testing App\Gateway_API\bin\Debug\Swashbuckle.AspNetCore.Swagger.dll
+D:\Students Testing App\Gateway_API\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+D:\Students Testing App\Gateway_API\bin\Debug\Newtonsoft.Json.dll
+D:\Students Testing App\Gateway_API\bin\Debug\Microsoft.OpenApi.dll
+D:\Students Testing App\Gateway_API\bin\Debug\Microsoft.IdentityModel.Logging.dll
+D:\Students Testing App\Gateway_API\bin\Debug\Gateway_API.pdb
+D:\Students Testing App\Gateway_API\bin\Debug\Gateway_Services.pdb
+D:\Students Testing App\Gateway_API\obj\Debug\docker-compose.dcprojAssemblyReference.cache
+D:\Students Testing App\Gateway_API\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+D:\Students Testing App\Gateway_API\obj\Debug\docker-compose.dcproj.CopyComplete

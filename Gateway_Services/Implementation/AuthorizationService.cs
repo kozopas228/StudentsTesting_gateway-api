@@ -72,7 +72,7 @@ namespace Gateway_Services.Implementation
 
         public async Task<ICollection<TestAttempt>> GetUserAttempts(Guid id)
         {
-            var response = await _httpClient.GetStringAsync(_endpoint + "/UserManagement/GetAttempts?login=" + id);
+            var response = await _httpClient.GetStringAsync(_endpoint + "/UserManagement/GetAttempts?id=" + id);
 
             var attempts = JsonConvert.DeserializeObject<ICollection<TestAttempt>>(response);
 
