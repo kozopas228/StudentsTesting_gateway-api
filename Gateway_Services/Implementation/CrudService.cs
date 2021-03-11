@@ -46,10 +46,12 @@ namespace Gateway_Services.Implementation
             return b;
         }
 
-        public async Task CreateAnswerAsync(Answer obj)
+        public async Task<Guid> CreateAnswerAsync(Answer obj)
         {
-            await _httpClient.PostAsync(_endpoint + "/Answer/",
+            var result = await _httpClient.PostAsync(_endpoint + "/Answer/",
                 new StringContent(JsonConvert.SerializeObject(obj), Encoding.UTF8, "application/json"));
+
+            return Guid.Parse(await result.Content.ReadAsStringAsync());
         }
 
         public async Task<Answer> GetAnswerById(Guid id)
@@ -85,10 +87,12 @@ namespace Gateway_Services.Implementation
             return b;
         }
 
-        public async Task CreateQuestionAsync(Question obj)
+        public async Task<Guid> CreateQuestionAsync(Question obj)
         {
-            await _httpClient.PostAsync(_endpoint + "/Question/",
+            var result = await _httpClient.PostAsync(_endpoint + "/Question/",
                 new StringContent(JsonConvert.SerializeObject(obj)));
+
+            return Guid.Parse(await result.Content.ReadAsStringAsync());
         }
 
         public async Task<Question> GetQuestionById(Guid id)
@@ -124,10 +128,12 @@ namespace Gateway_Services.Implementation
             return b;
         }
 
-        public async Task CreateTestAsync(Test obj)
+        public async Task<Guid> CreateTestAsync(Test obj)
         {
-            await _httpClient.PostAsync(_endpoint + "/Test/",
+            var result = await _httpClient.PostAsync(_endpoint + "/Test/",
                 new StringContent(JsonConvert.SerializeObject(obj), Encoding.UTF8, "application/json"));
+
+            return Guid.Parse(await result.Content.ReadAsStringAsync());
         }
 
         public async Task<Test> GetTestById(Guid id)
@@ -163,10 +169,12 @@ namespace Gateway_Services.Implementation
             return b;
         }
 
-        public async Task CreateTestThemeAsync(TestTheme obj)
+        public async Task<Guid> CreateTestThemeAsync(TestTheme obj)
         {
-            await _httpClient.PostAsync(_endpoint + "/TestTheme/",
+            var result = await _httpClient.PostAsync(_endpoint + "/TestTheme/",
                 new StringContent(JsonConvert.SerializeObject(obj), Encoding.UTF8, "application/json"));
+
+            return Guid.Parse(await result.Content.ReadAsStringAsync());
         }
 
         public async Task<TestTheme> GetTestThemeById(Guid id)

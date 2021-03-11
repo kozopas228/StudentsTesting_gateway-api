@@ -29,8 +29,7 @@ namespace Gateway_API.Controllers
         [HttpPost("Answer")]
         public async Task<IActionResult> CreateAnswer([FromBody] Answer answer)
         {
-            await _crudService.CreateAnswerAsync(answer);
-            return Ok();
+            return Ok(await _crudService.CreateAnswerAsync(answer));
         }
 
         [HttpPut("Answer")]
@@ -81,8 +80,7 @@ namespace Gateway_API.Controllers
         [HttpPost("Question")]
         public async Task<IActionResult> CreateQuestion([FromBody] Question Question)
         {
-            await _crudService.CreateQuestionAsync(Question);
-            return Ok();
+            return Ok(await _crudService.CreateQuestionAsync(Question));
         }
 
         [HttpPut("Question")]
@@ -133,8 +131,7 @@ namespace Gateway_API.Controllers
         [HttpPost("Test")]
         public async Task<IActionResult> CreateTest([FromBody] Test Test)
         {
-            await _crudService.CreateTestAsync(Test);
-            return Ok();
+            return Ok(await _crudService.CreateTestAsync(Test));
         }
 
         [HttpPut("Test")]
@@ -185,8 +182,7 @@ namespace Gateway_API.Controllers
         [HttpPost("TestTheme")]
         public async Task<IActionResult> CreateTestTheme([FromBody] TestTheme TestTheme)
         {
-            await _crudService.CreateTestThemeAsync(TestTheme);
-            return Ok();
+            return Ok(await _crudService.CreateTestThemeAsync(TestTheme));
         }
 
         [HttpPut("TestTheme")]
