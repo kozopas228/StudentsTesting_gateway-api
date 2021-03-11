@@ -46,12 +46,12 @@ namespace Gateway_Services.Implementation
             return b;
         }
 
-        public async Task<Guid> CreateAnswerAsync(Answer obj)
+        public async Task<string> CreateAnswerAsync(Answer obj)
         {
             var result = await _httpClient.PostAsync(_endpoint + "/Answer/",
                 new StringContent(JsonConvert.SerializeObject(obj), Encoding.UTF8, "application/json"));
 
-            return Guid.Parse(await result.Content.ReadAsStringAsync());
+            return await result.Content.ReadAsStringAsync();
         }
 
         public async Task<Answer> GetAnswerById(Guid id)
@@ -87,12 +87,13 @@ namespace Gateway_Services.Implementation
             return b;
         }
 
-        public async Task<Guid> CreateQuestionAsync(Question obj)
+        public async Task<string> CreateQuestionAsync(Question obj)
         {
-            var result = await _httpClient.PostAsync(_endpoint + "/Question/",
-                new StringContent(JsonConvert.SerializeObject(obj)));
 
-            return Guid.Parse(await result.Content.ReadAsStringAsync());
+            var result = await _httpClient.PostAsync(_endpoint + "/Question/",
+                new StringContent(JsonConvert.SerializeObject(obj), Encoding.UTF8, "application/json"));
+
+            return await result.Content.ReadAsStringAsync();
         }
 
         public async Task<Question> GetQuestionById(Guid id)
@@ -128,12 +129,12 @@ namespace Gateway_Services.Implementation
             return b;
         }
 
-        public async Task<Guid> CreateTestAsync(Test obj)
+        public async Task<string> CreateTestAsync(Test obj)
         {
             var result = await _httpClient.PostAsync(_endpoint + "/Test/",
                 new StringContent(JsonConvert.SerializeObject(obj), Encoding.UTF8, "application/json"));
 
-            return Guid.Parse(await result.Content.ReadAsStringAsync());
+            return await result.Content.ReadAsStringAsync();
         }
 
         public async Task<Test> GetTestById(Guid id)
@@ -169,12 +170,12 @@ namespace Gateway_Services.Implementation
             return b;
         }
 
-        public async Task<Guid> CreateTestThemeAsync(TestTheme obj)
+        public async Task<string> CreateTestThemeAsync(TestTheme obj)
         {
             var result = await _httpClient.PostAsync(_endpoint + "/TestTheme/",
                 new StringContent(JsonConvert.SerializeObject(obj), Encoding.UTF8, "application/json"));
 
-            return Guid.Parse(await result.Content.ReadAsStringAsync());
+            return await result.Content.ReadAsStringAsync();
         }
 
         public async Task<TestTheme> GetTestThemeById(Guid id)
