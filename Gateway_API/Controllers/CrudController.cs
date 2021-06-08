@@ -223,5 +223,6 @@ namespace Gateway_API.Controllers
 
             return NotFound();
         }
+        
     }
 }
