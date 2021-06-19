@@ -1,13 +1,13 @@
-﻿using System;
+﻿using Gateway_Services.Interfaces;
+using Gateway_Services.Models;
+using Microsoft.Extensions.Configuration;
+using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Net;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
-using Gateway_Services.Interfaces;
-using Gateway_Services.Models;
-using Microsoft.Extensions.Configuration;
-using Newtonsoft.Json;
 
 namespace Gateway_Services.Implementation
 {
@@ -25,9 +25,9 @@ namespace Gateway_Services.Implementation
 
         public async Task<string> Login(string login, string password)
         {
-            var response = await 
+            var response = await
                 _httpClient.PostAsync
-                    (_endpoint+ "/Authentication/Login?login="+login+"&password="+password, new StringContent(""));
+                    (_endpoint + "/Authentication/Login?login=" + login + "&password=" + password, new StringContent(""));
 
             if (response.StatusCode == HttpStatusCode.Unauthorized)
             {
@@ -43,14 +43,14 @@ namespace Gateway_Services.Implementation
             if (login.Length < 4 || password.Length < 4 || firstName.Length < 4 || lastName.Length < 4)
             {
                 return false;
-            } 
+            }
 
             var response = await
                 _httpClient.PostAsync
-                    (_endpoint + "/Authentication/Register?login=" + login + 
+                    (_endpoint + "/Authentication/Register?login=" + login +
                      "&password=" + password +
-                    "&firstName="+firstName +
-                    "&lastName="+lastName, new StringContent(""));
+                    "&firstName=" + firstName +
+                    "&lastName=" + lastName, new StringContent(""));
 
             if (response.StatusCode == HttpStatusCode.BadRequest)
             {
@@ -63,7 +63,7 @@ namespace Gateway_Services.Implementation
 
         public async Task<Guid> GetUserIdByLogin(string login)
         {
-            var response = await _httpClient.GetStringAsync(_endpoint + "/UserManagement/GetIdByLogin?login="+login);
+            var response = await _httpClient.GetStringAsync(_endpoint + "/UserManagement/GetIdByLogin?login=" + login);
 
             var id = Guid.Parse(response);
 
@@ -153,7 +153,7 @@ namespace Gateway_Services.Implementation
         public async Task<bool> SaveAttemptToUser(Guid userId, TestAttempt attempt)
         {
             var serialized = JsonConvert.SerializeObject(attempt);
-            var response = await _httpClient.PostAsync(_endpoint + "/UserManagement/SaveAttemptToUser?userId=" + userId, new StringContent(serialized, Encoding.UTF8, "application/json") );
+            var response = await _httpClient.PostAsync(_endpoint + "/UserManagement/SaveAttemptToUser?userId=" + userId, new StringContent(serialized, Encoding.UTF8, "application/json"));
 
             var result = response.StatusCode;
 

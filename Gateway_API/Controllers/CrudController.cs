@@ -1,11 +1,9 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Gateway_Services.Interfaces;
+using Gateway_Services.Models;
 using Microsoft.AspNetCore.Mvc;
 using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Gateway_Services.Interfaces;
-using Gateway_Services.Models;
 
 namespace Gateway_API.Controllers
 {
@@ -223,6 +221,6 @@ namespace Gateway_API.Controllers
 
             return NotFound();
         }
-        
+
     }
 }

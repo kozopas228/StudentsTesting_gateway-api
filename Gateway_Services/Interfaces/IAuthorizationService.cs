@@ -1,7 +1,7 @@
-﻿using System;
+﻿using Gateway_Services.Models;
+using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Gateway_Services.Models;
 
 namespace Gateway_Services.Interfaces
 {
