@@ -1,12 +1,12 @@
-﻿using System;
+﻿using Gateway_Services.Interfaces;
+using Gateway_Services.Models;
+using Microsoft.Extensions.Configuration;
+using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
-using Gateway_Services.Interfaces;
-using Gateway_Services.Models;
-using Microsoft.Extensions.Configuration;
-using Newtonsoft.Json;
 
 namespace Gateway_Services.Implementation
 {
@@ -56,7 +56,7 @@ namespace Gateway_Services.Implementation
 
         public async Task<Answer> GetAnswerById(Guid id)
         {
-            var response = await _httpClient.GetStringAsync(_endpoint + "/Answer/"+id);
+            var response = await _httpClient.GetStringAsync(_endpoint + "/Answer/" + id);
 
             var result = JsonConvert.DeserializeObject<Answer>(response);
 

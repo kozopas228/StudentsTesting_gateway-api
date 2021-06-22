@@ -1,13 +1,13 @@
-﻿using System;
+﻿using Gateway_Services.Interfaces;
+using Gateway_Services.Models;
+using Microsoft.Extensions.Configuration;
+using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Net;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
-using Gateway_Services.Interfaces;
-using Gateway_Services.Models;
-using Microsoft.Extensions.Configuration;
-using Newtonsoft.Json;
 
 namespace Gateway_Services.Implementation
 {
@@ -25,8 +25,8 @@ namespace Gateway_Services.Implementation
 
         public async Task<CheckResultModel> CheckAnswer(CheckAnswerViewModel viewModel)
         {
-            var response = await _httpClient.PostAsync(_endpoint 
-                                                       + "/TestProcess/CheckAnswer", 
+            var response = await _httpClient.PostAsync(_endpoint
+                                                       + "/TestProcess/CheckAnswer",
                 new StringContent(JsonConvert.SerializeObject(viewModel), Encoding.UTF8, "application/json"));
 
             if (response.StatusCode == HttpStatusCode.InternalServerError ||

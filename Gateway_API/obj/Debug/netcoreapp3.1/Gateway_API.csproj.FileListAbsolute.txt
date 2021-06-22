@@ -29,3 +29,34 @@ D:\Students Testing App\Gateway_API\Gateway_API\obj\Debug\netcoreapp3.1\Gateway_
 D:\Students Testing App\Gateway_API\Gateway_API\obj\Debug\netcoreapp3.1\Gateway_API.dll
 D:\Students Testing App\Gateway_API\Gateway_API\obj\Debug\netcoreapp3.1\Gateway_API.pdb
 D:\Students Testing App\Gateway_API\Gateway_API\obj\Debug\netcoreapp3.1\Gateway_API.genruntimeconfig.cache
+C:\Users\Hapan9\Documents\GitHub\StudentsTesting_gateway-api\Gateway_API\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Hapan9\Documents\GitHub\StudentsTesting_gateway-api\Gateway_API\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Hapan9\Documents\GitHub\StudentsTesting_gateway-api\Gateway_API\bin\Debug\netcoreapp3.1\Gateway_API.exe
+C:\Users\Hapan9\Documents\GitHub\StudentsTesting_gateway-api\Gateway_API\bin\Debug\netcoreapp3.1\Gateway_API.deps.json
+C:\Users\Hapan9\Documents\GitHub\StudentsTesting_gateway-api\Gateway_API\bin\Debug\netcoreapp3.1\Gateway_API.runtimeconfig.json
+C:\Users\Hapan9\Documents\GitHub\StudentsTesting_gateway-api\Gateway_API\bin\Debug\netcoreapp3.1\Gateway_API.runtimeconfig.dev.json
+C:\Users\Hapan9\Documents\GitHub\StudentsTesting_gateway-api\Gateway_API\bin\Debug\netcoreapp3.1\Gateway_API.dll
+C:\Users\Hapan9\Documents\GitHub\StudentsTesting_gateway-api\Gateway_API\bin\Debug\netcoreapp3.1\Gateway_API.pdb
+C:\Users\Hapan9\Documents\GitHub\StudentsTesting_gateway-api\Gateway_API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\Hapan9\Documents\GitHub\StudentsTesting_gateway-api\Gateway_API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Hapan9\Documents\GitHub\StudentsTesting_gateway-api\Gateway_API\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\Hapan9\Documents\GitHub\StudentsTesting_gateway-api\Gateway_API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Hapan9\Documents\GitHub\StudentsTesting_gateway-api\Gateway_API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Hapan9\Documents\GitHub\StudentsTesting_gateway-api\Gateway_API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Hapan9\Documents\GitHub\StudentsTesting_gateway-api\Gateway_API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Hapan9\Documents\GitHub\StudentsTesting_gateway-api\Gateway_API\bin\Debug\netcoreapp3.1\Gateway_Services.dll
+C:\Users\Hapan9\Documents\GitHub\StudentsTesting_gateway-api\Gateway_API\bin\Debug\netcoreapp3.1\Gateway_Services.pdb
+C:\Users\Hapan9\Documents\GitHub\StudentsTesting_gateway-api\Gateway_API\obj\Debug\netcoreapp3.1\Gateway_API.csproj.AssemblyReference.cache
+C:\Users\Hapan9\Documents\GitHub\StudentsTesting_gateway-api\Gateway_API\obj\Debug\netcoreapp3.1\Gateway_API.AssemblyInfoInputs.cache
+C:\Users\Hapan9\Documents\GitHub\StudentsTesting_gateway-api\Gateway_API\obj\Debug\netcoreapp3.1\Gateway_API.AssemblyInfo.cs
+C:\Users\Hapan9\Documents\GitHub\StudentsTesting_gateway-api\Gateway_API\obj\Debug\netcoreapp3.1\Gateway_API.csproj.CoreCompileInputs.cache
+C:\Users\Hapan9\Documents\GitHub\StudentsTesting_gateway-api\Gateway_API\obj\Debug\netcoreapp3.1\Gateway_API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Hapan9\Documents\GitHub\StudentsTesting_gateway-api\Gateway_API\obj\Debug\netcoreapp3.1\Gateway_API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Hapan9\Documents\GitHub\StudentsTesting_gateway-api\Gateway_API\obj\Debug\netcoreapp3.1\staticwebassets\Gateway_API.StaticWebAssets.Manifest.cache
+C:\Users\Hapan9\Documents\GitHub\StudentsTesting_gateway-api\Gateway_API\obj\Debug\netcoreapp3.1\staticwebassets\Gateway_API.StaticWebAssets.xml
+C:\Users\Hapan9\Documents\GitHub\StudentsTesting_gateway-api\Gateway_API\obj\Debug\netcoreapp3.1\scopedcss\bundle\Gateway_API.styles.css
+C:\Users\Hapan9\Documents\GitHub\StudentsTesting_gateway-api\Gateway_API\obj\Debug\netcoreapp3.1\Gateway_API.RazorTargetAssemblyInfo.cache
+C:\Users\Hapan9\Documents\GitHub\StudentsTesting_gateway-api\Gateway_API\obj\Debug\netcoreapp3.1\Gateway_API.csproj.CopyComplete
+C:\Users\Hapan9\Documents\GitHub\StudentsTesting_gateway-api\Gateway_API\obj\Debug\netcoreapp3.1\Gateway_API.dll
+C:\Users\Hapan9\Documents\GitHub\StudentsTesting_gateway-api\Gateway_API\obj\Debug\netcoreapp3.1\Gateway_API.pdb
+C:\Users\Hapan9\Documents\GitHub\StudentsTesting_gateway-api\Gateway_API\obj\Debug\netcoreapp3.1\Gateway_API.genruntimeconfig.cache

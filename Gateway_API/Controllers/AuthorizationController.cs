@@ -1,13 +1,10 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net.Http;
-using System.Threading.Tasks;
-using Gateway_API.ViewModels;
+﻿using Gateway_API.ViewModels;
 using Gateway_Services.Interfaces;
 using Gateway_Services.Models;
+using Microsoft.AspNetCore.Mvc;
+using System;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace Gateway_API.Controllers
 {
